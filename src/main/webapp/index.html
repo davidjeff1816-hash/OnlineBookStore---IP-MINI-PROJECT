@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>BookNest - Online Book Store</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        /* Header */
+
+        header {
+            background: white;
+            border-bottom: 1px solid #ddd;
+            padding: 18px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main */
+
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .welcome {
+            background: white;
+            margin-top: 40px;
+            padding: 50px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        .welcome h1 {
+            margin-bottom: 10px;
+        }
+
+        .welcome p {
+            color: #666;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .button:hover {
+            background: #555;
+        }
+
+        /* Categories */
+
+        .categories {
+            margin-top: 30px;
+            background: white;
+            padding: 30px;
+            border: 1px solid #ddd;
+        }
+
+        .categories h2 {
+            margin-top: 0;
+        }
+
+        .category-list {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .category {
+            border: 1px solid #ddd;
+            padding: 15px 25px;
+            background: #fafafa;
+        }
+
+        /* Footer */
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            text-align: center;
+            background: white;
+            border-top: 1px solid #ddd;
+            color: #666;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        📚 BookNest
+    </div>
+
+    <nav>
+
+        <a href="index.html">Home</a>
+
+        <a href="books">Books</a>
+
+        <a href="login.html">Login</a>
+
+        <a href="register.html">Register</a>
+
+    </nav>
+
+</header>
+
+
+<div class="container">
+
+    <section class="welcome">
+
+        <h1>Online Book Store</h1>
+
+        <p>
+            Find and buy your favourite books online.
+        </p>
+
+        <a href="books" class="button">
+            View Books
+        </a>
+
+    </section>
+
+
+    <section class="categories">
+
+        <h2>Categories</h2>
+
+        <div class="category-list">
+
+            <div class="category">
+                Fiction
+            </div>
+
+            <div class="category">
+                Programming
+            </div>
+
+            <div class="category">
+                Finance
+            </div>
+
+            <div class="category">
+                Self Help
+            </div>
+
+            <div class="category">
+                Fantasy
+            </div>
+
+            <div class="category">
+                Computer Science
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+
+<footer>
+
+    © 2026 BookNest Online Book Store
+
+</footer>
+
+</body>
+</html>
